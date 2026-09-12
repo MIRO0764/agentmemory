@@ -84,7 +84,9 @@
   "overrides": {
     "qs": "^6.15.2",
     "ws": "^8.21.0",
-    "protobufjs": "^7.5.8"
+    "protobufjs": "^7.5.8",
+    "adm-zip": "^0.6.1",
+    "sharp": "^0.35.4"
   },
   "engines": {
     "node": ">=20.0.0"
