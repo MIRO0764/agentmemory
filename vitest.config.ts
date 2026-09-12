@@ -13,6 +13,9 @@ const testHome = mkdtempSync(join(tmpdir(), "agentmemory-test-home-"));
 
 export default defineConfig({
   test: {
+    clearMocks: false,
+    mockReset: false,
+    restoreMocks: false,
     env: {
       HOME: testHome,
       USERPROFILE: testHome,
